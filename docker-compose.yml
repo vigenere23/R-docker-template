@@ -3,5 +3,8 @@ version: "3"
 services:
   r:
     build: .
+    environment:
+      RENV_PATHS_CACHE: /renv/cache
     volumes:
       - .:/app
+      - ~/.cache/R/renv/cache:/renv/cache
