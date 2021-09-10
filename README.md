@@ -4,7 +4,7 @@ A minimal template for using R with renv inside a Docker image.
 
 ## Description
 
-This template uses the base Docker image `vigenere23/renv-dev` for using R with `renv`. It also sets up some sweat volumes for hot reloading and cache.
+This template uses the base Docker image [`vigenere23/renv-dev`](https://github.com/vigenere23/renv-docker) for using R with `renv`. It also sets up some sweat volumes for hot reloading and cache.
 
 ## Known problems
 
