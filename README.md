@@ -1,4 +1,4 @@
-# `renv` template
+# R Docker template
 
 A minimal template for using R with renv inside a Docker image.
 
