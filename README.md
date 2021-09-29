@@ -13,6 +13,18 @@ This template uses the base Docker image [`vigenere23/renv-dev`](https://github.
 
 ## Usage
 
+### Enable X11
+
+```shell
+./scripts/init.sh
+```
+
+This will add remote control access on X11 for Docker. To remove access, simply run :
+
+```shell
+./scripts/uninit.sh
+```
+
 ### Build image
 
 This will build the R image and sets up volumes, install dependencies, and create `renv` related files.
